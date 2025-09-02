@@ -9,7 +9,7 @@ def truncate(text, length):
     else:
         return text
 
-
+#content_based_recommendation
 def content_based_recommendations(train_data, item_name, top_n=10):
     # Check if the item name exists in the training data
     if item_name not in train_data['Name'].values:
